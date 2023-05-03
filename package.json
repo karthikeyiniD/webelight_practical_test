@@ -1,8 +1,11 @@
 {
-  "name": "node-redis-mongo",
+  "name": "redis-mongo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/haimrait/node-redis-mongo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haimrait/node-redis-mongo.git"
+  },
   "author": "DESKTOP-MOOGR13\\haimr <haimrait@gmail.com>",
   "scripts": {
     "start": "node index.js"
@@ -11,8 +14,18 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.7.12",
-    "redis": "^2.8.0"
-  }
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^5.3.0",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^5.13.17",
+    "mongos": "^0.0.0",
+    "redis": "^2.8.0",
+    "validators": "^0.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/haimrait/node-redis-mongo/issues"
+  },
+  "homepage": "https://github.com/haimrait/node-redis-mongo#readme",
+  "description": ""
 }
